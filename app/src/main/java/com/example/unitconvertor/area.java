@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class area extends AppCompatActivity {
     EditText editText;
     TextView textView, textView2, textView4, valueinsqf;
+    //added latest text view
     Button button;
 
     @Override
