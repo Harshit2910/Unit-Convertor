@@ -45,7 +45,7 @@ public class time extends AppCompatActivity {
 
         double Hours = Double.parseDouble(valueEnteredinHours);
 
-        double Seconds = Hours * 3600;
+        double Seconds = Hours * 3600.0;
 
         valueinsec.setText("" +Seconds);
     }
