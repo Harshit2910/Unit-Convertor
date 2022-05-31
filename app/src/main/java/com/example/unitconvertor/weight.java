@@ -44,7 +44,7 @@ public class weight extends AppCompatActivity {
 
         double Kilo = Double.parseDouble(valueEnteredKilo);
 
-        double Pound = Kilo * 2.205;
+        double Pound = Kilo * 2.2050;
 
         valueinpound.setText("" +Pound);
     }
