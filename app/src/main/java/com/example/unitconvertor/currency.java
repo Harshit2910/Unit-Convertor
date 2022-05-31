@@ -45,7 +45,7 @@ public class currency extends AppCompatActivity {
 
         double Rupees = Double.parseDouble(valueEnteredinRupees);
 
-        double Dollars = Rupees * 0.013;
+        double Dollars = Rupees * 0.0130;
 
         valueindollar.setText("" +Dollars);
     }
