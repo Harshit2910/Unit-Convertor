@@ -45,7 +45,7 @@ public class temperature extends AppCompatActivity {
 
         double cel = Double.parseDouble(valueEnteredincel);
 
-        double feh = cel * 1.8 + 32;
+        double feh = cel * 1.80 + 32;
 
         valueinfeh.setText("" +feh);
     }
