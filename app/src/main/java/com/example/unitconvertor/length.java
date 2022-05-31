@@ -45,7 +45,7 @@ public class length extends AppCompatActivity {
 
         double Kilometers = Double.parseDouble(valueEnteredinKilometers);
 
-        double Inches = Kilometers * 39370;
+        double Inches = Kilometers * 393700;
 
         valueininches.setText("" +Inches);
     }
